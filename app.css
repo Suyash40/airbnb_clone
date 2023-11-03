@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Nunito+Sans:opsz,wght@6..12,300&family=Roboto&family=Tilt+Neon&display=swap');
+
+
+.sticky-top {
+    background-color: white;
+    padding-bottom: 5px;
+}
+
+header #space div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 5px;
+}
+
+header #space div span {
+    font-size: 0.9rem;
+}
+
+#yo nav {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.container nav #font {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+#p {
+    color: red;
+    text-decoration: none;
+}
+
+#airbnb {
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff385c;
+    display: flex;
+    align-items: center;
+}
+
+.container .row #airbnb .fa-brands {
+    font-size: 33px;
+    font-weight: 100;
+}
+
+.container nav .second {
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    display: flex;
+}
+
+.container nav .second button {
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.container nav .second i {
+    padding-top: 15px;
+    color: #ff385c;
+}
+
+#h {
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#h:hover {
+    background-color: #ddd;
+    border-radius: 30px;
+}
+
+#globe {
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+#globe:hover {
+    background-color: #ddd;
+}
+
+#btn2 {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.container nav .second #button1 {
+    font-weight: 600;
+    font-size: 14.5px;
+}
+
+.container nav .second #btn2 {
+    font-weight: 600;
+    font-size: 14.5px;
+}
+
+.container nav .second #btn3 {
+    color: grey;
+    font-weight: 400;
+    font-size: 14.5px;
+}
+
+.container nav .second {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.container nav .third #signbutton {
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    background: none;
+    margin-top: 10px;
+    outline: none;
+}
+
+.container nav .third #signbutton:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+
+.container nav .third {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container nav .third button .icons {
+    display: flex;
+    align-items: center;
+    padding: 4px 4px 6px 2px;
+    justify-content: center;
+
+}
+
+.section #space {
+    padding-top: 1000px;
+}
+
+.container nav .third button .icons #profile {
+    padding-left: 10px;
+}
+
+#space {
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#filter {
+    margin-top: 30px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+header .tax {
+    margin-top: 30px;
+    padding: 10px 15px 10px 15px;
+    margin-left: 25px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+header #otherBtn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header #otherBtn button {
+    border: 1px solid #ddd;
+}
+
+header #otherBtn .tax {
+    border: 1px solid #ddd;
+}
+
+.maincontent .row #pics1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.maincontent .row #pics1 img {
+    border-radius: 12px;
+    margin-top: 20px;
+    height: 314px;
+    width: 304px;
+}
+
+figcaption h5 {
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Nunito sans', sans-serif;
+    margin-top: 10px;
+    margin-left: 2px;
+
+}
+
+figcaption br {
+    margin: 0;
+}
+
+figure figcaption span {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: grey;
+}
